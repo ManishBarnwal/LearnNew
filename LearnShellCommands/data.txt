@@ -1,0 +1,200 @@
+ID,WorkStatus,Score,Residence_Region,income,Gender,Alcohol_Consumption,Happy
+10000123,keeping house,46,middle atlantic,$10000 - 14999,1,Once a month,Pretty Happy
+10000125,working fulltime,29,foreign,$15000 - 19999,1,2 - 3 times a month,Pretty Happy
+10000126,working fulltime,42,foreign,$15000 - 19999,0,Multiple times in a week,Not Happy
+10000127,working parttime,36,middle atlantic,$10000 - 14999,1,Once a month,Not Happy
+10000130,working fulltime,44,foreign,$10000 - 14999,0,Rarely,Very Happy
+10000132,working fulltime,46,middle atlantic,$15000 - 19999,1,2 - 3 times a month,Pretty Happy
+10000134,working fulltime,75,middle atlantic,$25000 or more,1,Occassional,Pretty Happy
+10000135,working fulltime,51,foreign,$25000 or more,0,Occassional,Very Happy
+10000137,working fulltime,73,south atlantic,$25000 or more,0,Once a week,Pretty Happy
+10000138,working fulltime,41,middle atlantic,$25000 or more,1,2 - 3 times a month,Pretty Happy
+10000140,keeping house,59,e. nor. central,$25000 or more,1,Rarely,Very Happy
+10000141,retired,35,middle atlantic,NA,0,0,Not Happy
+10000142,working parttime,46,new england,$25000 or more,0,Never,Pretty Happy
+10000143,working parttime,47,middle atlantic,$10000 - 14999,0,Never,Pretty Happy
+10000144,working parttime,74,middle atlantic,$25000 or more,0,Multiple times in a week,Not Happy
+10000145,working fulltime,44,middle atlantic,$25000 or more,0,Occassional,Pretty Happy
+10000146,retired,52,new england,NA,0,Occassional,Pretty Happy
+10000147,working fulltime,74,middle atlantic,$25000 or more,0,Once a week,Pretty Happy
+10000148,working fulltime,44,foreign,NA,0,Once a week,Pretty Happy
+10000150,keeping house,NA,foreign,$3000 to 3999,1,0,Not Happy
+10000152,working fulltime,64,w. sou. central,NA,1,Once a week,Pretty Happy
+10000153,keeping house,41,middle atlantic,$8000 to 9999,1,Once a month,Pretty Happy
+10000154,working fulltime,42,middle atlantic,$25000 or more,0,Multiple times in a week,Pretty Happy
+10000157,keeping house,60,middle atlantic,$25000 or more,1,Multiple times in a week,Not Happy
+10000158,working fulltime,44,middle atlantic,$25000 or more,1,0,Not Happy
+10000160,other,32,middle atlantic,$5000 to 5999,0,2 - 3 times a month,Not Happy
+10000163,keeping house,59,middle atlantic,$25000 or more,1,Once a week,Very Happy
+10000164,working fulltime,64,middle atlantic,$25000 or more,1,Once a week,Pretty Happy
+10000166,retired,60,middle atlantic,$25000 or more,1,Never,Pretty Happy
+10000167,temp not working,28,foreign,NA,1,2 - 3 times a month,Not Happy
+10000169,keeping house,29,foreign,NA,1,0,Not Happy
+10000170,school,29,foreign,$3000 to 3999,0,0,Not Happy
+10000172,keeping house,52,south atlantic,$1000 to 2999,1,Multiple times in a week,Not Happy
+10000174,working fulltime,42,middle atlantic,$25000 or more,0,Once a month,Pretty Happy
+10000175,retired,50,south atlantic,NA,0,0,Not Happy
+10000177,working fulltime,51,middle atlantic,$25000 or more,1,Occassional,Pretty Happy
+10000178,working fulltime,31,middle atlantic,$25000 or more,0,Never,Very Happy
+10000179,working fulltime,30,foreign,$25000 or more,0,Occassional,Very Happy
+10000182,working fulltime,22,foreign,$25000 or more,0,Once a week,Pretty Happy
+10000183,working fulltime,17,foreign,NA,0,Once a week,Pretty Happy
+10000184,keeping house,NA,south atlantic,NA,1,Rarely,Pretty Happy
+10000185,working fulltime,41,south atlantic,NA,1,Never,Pretty Happy
+10000186,retired,40,south atlantic,$25000 or more,0,Occassional,Pretty Happy
+10000188,working fulltime,40,middle atlantic,$25000 or more,0,Once a week,Pretty Happy
+10000189,working fulltime,42,foreign,NA,1,2 - 3 times a month,Very Happy
+10000192,other,37,middle atlantic,$15000 - 19999,0,2 - 3 times a month,Pretty Happy
+10000194,keeping house,31,middle atlantic,$8000 to 9999,1,Never,Pretty Happy
+10000197,working parttime,36,middle atlantic,$8000 to 9999,1,Never,Pretty Happy
+10000198,working parttime,17,middle atlantic,$5000 to 5999,1,Once a week,Pretty Happy
+10000200,working fulltime,61,w. nor. central,$25000 or more,0,2 - 3 times a month,Very Happy
+10000204,working parttime,23,new england,$8000 to 9999,1,Once a month,Pretty Happy
+10000208,temp not working,66,w. sou. central,NA,1,Rarely,Pretty Happy
+10000211,working parttime,23,foreign,$25000 or more,1,2 - 3 times a month,Very Happy
+10000213,keeping house,46,middle atlantic,$25000 or more,1,2 - 3 times a month,Very Happy
+10000217,working fulltime,64,middle atlantic,$25000 or more,1,Once a month,Pretty Happy
+10000220,working fulltime,51,middle atlantic,$25000 or more,1,Occassional,Pretty Happy
+10000222,keeping house,47,south atlantic,$15000 - 19999,1,2 - 3 times a month,Pretty Happy
+10000226,working fulltime,65,middle atlantic,$25000 or more,1,2 - 3 times a month,Very Happy
+10000227,working fulltime,44,middle atlantic,$25000 or more,1,Once a month,Not Happy
+10000228,keeping house,NA,middle atlantic,NA,1,Multiple times in a week,Not Happy
+10000231,temp not working,32,middle atlantic,$20000 - 24999,1,Occassional,Pretty Happy
+10000232,school,66,middle atlantic,$25000 or more,1,Rarely,Pretty Happy
+10000234,retired,74,middle atlantic,NA,0,Occassional,Pretty Happy
+10000235,working fulltime,49,middle atlantic,$25000 or more,0,Once a week,Very Happy
+10000236,working fulltime,51,middle atlantic,$25000 or more,0,Occassional,Pretty Happy
+10000238,working fulltime,22,middle atlantic,$15000 - 19999,0,Rarely,Very Happy
+10000239,working fulltime,27,middle atlantic,$20000 - 24999,0,Multiple times in a week,Very Happy
+10000241,keeping house,NA,middle atlantic,$20000 - 24999,1,0,Not Happy
+10000242,working fulltime,40,middle atlantic,$25000 or more,0,Once a week,Pretty Happy
+10000243,working fulltime,46,middle atlantic,$25000 or more,0,Once a week,Very Happy
+10000245,working fulltime,64,foreign,$25000 or more,0,2 - 3 times a month,Not Happy
+10000247,working fulltime,44,middle atlantic,$25000 or more,0,Never,Pretty Happy
+10000249,working fulltime,44,middle atlantic,$25000 or more,0,Occassional,Very Happy
+10000252,working fulltime,41,middle atlantic,$25000 or more,1,2 - 3 times a month,Pretty Happy
+10000255,working fulltime,30,foreign,$25000 or more,0,Never,Pretty Happy
+10000256,working parttime,42,middle atlantic,$8000 to 9999,1,2 - 3 times a month,Not Happy
+10000261,working fulltime,75,middle atlantic,$25000 or more,0,Occassional,Very Happy
+10000264,temp not working,40,middle atlantic,$25000 or more,1,2 - 3 times a month,Pretty Happy
+10000266,working fulltime,38,middle atlantic,$25000 or more,0,Rarely,Pretty Happy
+10000268,retired,60,middle atlantic,$25000 or more,1,Once a month,Not Happy
+10000269,working fulltime,64,middle atlantic,$25000 or more,1,Never,Pretty Happy
+10000270,"unempl, laid off",31,e. sou. central,NA,0,Once a month,Not Happy
+10000273,working parttime,53,middle atlantic,$25000 or more,1,Rarely,Pretty Happy
+10000280,working fulltime,42,new england,$25000 or more,0,Once a week,Very Happy
+10000282,working parttime,46,middle atlantic,$25000 or more,1,Once a week,Very Happy
+10000283,other,35,middle atlantic,NA,0,Occassional,Pretty Happy
+10000284,working fulltime,66,foreign,$25000 or more,0,Occassional,Pretty Happy
+10000286,working fulltime,86,foreign,$25000 or more,0,Never,Pretty Happy
+10000287,working fulltime,44,south atlantic,$25000 or more,0,Rarely,Pretty Happy
+10000290,retired,42,middle atlantic,NA,0,Never,Pretty Happy
+10000291,working parttime,22,middle atlantic,$10000 - 14999,0,Once a week,Pretty Happy
+10000292,retired,36,middle atlantic,NA,1,Never,Pretty Happy
+10000293,keeping house,23,middle atlantic,$25000 or more,1,2 - 3 times a month,Very Happy
+10000295,working fulltime,32,middle atlantic,NA,0,Occassional,Very Happy
+10000297,working fulltime,51,middle atlantic,$25000 or more,1,Never,Pretty Happy
+10000299,working fulltime,36,middle atlantic,$25000 or more,1,Multiple times in a week,Not Happy
+10000300,working fulltime,51,middle atlantic,$25000 or more,1,2 - 3 times a month,Pretty Happy
+10000301,working fulltime,51,foreign,$25000 or more,0,Occassional,Pretty Happy
+10000303,working fulltime,75,middle atlantic,NA,0,Once a month,Pretty Happy
+10000304,retired,66,middle atlantic,$25000 or more,1,Never,Pretty Happy
+10000305,working fulltime,61,foreign,$25000 or more,1,Occassional,Pretty Happy
+10000306,working fulltime,49,middle atlantic,$25000 or more,1,Once a week,Very Happy
+10000307,retired,47,foreign,$15000 - 19999,1,2 - 3 times a month,Pretty Happy
+10000308,retired,51,pacific,$25000 or more,0,0,Very Happy
+10000309,temp not working,64,foreign,$25000 or more,0,Rarely,Very Happy
+10000310,working fulltime,51,middle atlantic,$25000 or more,0,Once a week,Very Happy
+10000313,keeping house,NA,pacific,$25000 or more,1,Rarely,Very Happy
+10000314,working fulltime,49,pacific,$25000 or more,1,Once a month,Pretty Happy
+10000315,working fulltime,61,foreign,$25000 or more,0,Rarely,Pretty Happy
+10000316,working fulltime,71,pacific,$25000 or more,1,Never,Pretty Happy
+10000318,working fulltime,47,mountain,$25000 or more,0,2 - 3 times a month,Pretty Happy
+10000322,working fulltime,49,pacific,$25000 or more,1,Once a month,Pretty Happy
+10000323,working parttime,25,pacific,$25000 or more,1,Occassional,Very Happy
+10000324,working fulltime,45,pacific,$25000 or more,0,2 - 3 times a month,Pretty Happy
+10000326,working fulltime,51,pacific,$25000 or more,0,Rarely,Pretty Happy
+10000327,working fulltime,34,middle atlantic,$25000 or more,0,Multiple times in a week,Not Happy
+10000328,working fulltime,50,pacific,$25000 or more,1,Multiple times in a week,Very Happy
+10000330,working fulltime,66,pacific,NA,1,Rarely,Very Happy
+10000332,working parttime,29,pacific,$25000 or more,1,2 - 3 times a month,Pretty Happy
+10000334,working parttime,27,pacific,$25000 or more,0,Once a month,Not Happy
+10000335,working fulltime,39,pacific,$25000 or more,0,Once a week,Very Happy
+10000336,retired,49,middle atlantic,$20000 - 24999,0,0,Not Happy
+10000337,working fulltime,22,middle atlantic,$20000 - 24999,1,Rarely,Pretty Happy
+10000341,working fulltime,49,pacific,$25000 or more,1,Occassional,Very Happy
+10000342,working fulltime,51,foreign,$25000 or more,0,Never,Pretty Happy
+10000343,working parttime,52,pacific,$25000 or more,1,Once a month,Not Happy
+10000344,working fulltime,66,pacific,$25000 or more,1,Occassional,Pretty Happy
+10000346,"unempl, laid off",59,w. nor. central,$25000 or more,0,Never,Pretty Happy
+10000347,retired,66,new england,NA,1,Once a week,Pretty Happy
+10000348,working parttime,51,pacific,$25000 or more,1,Rarely,Pretty Happy
+10000349,working fulltime,44,pacific,NA,1,Once a month,Pretty Happy
+10000350,working fulltime,65,pacific,$20000 - 24999,1,0,Not Happy
+10000351,working fulltime,52,foreign,$25000 or more,1,Once a month,Pretty Happy
+10000352,working fulltime,21,foreign,$10000 - 14999,1,0,Very Happy
+10000355,retired,34,pacific,$25000 or more,0,Never,Very Happy
+10000356,working parttime,45,mountain,$25000 or more,0,Once a month,Pretty Happy
+10000357,working fulltime,52,e. nor. central,$25000 or more,1,0,Very Happy
+10000358,working fulltime,64,foreign,$25000 or more,0,2 - 3 times a month,Very Happy
+10000359,working fulltime,36,foreign,$25000 or more,1,Multiple times in a week,Not Happy
+10000360,working fulltime,46,e. nor. central,$25000 or more,1,2 - 3 times a month,Pretty Happy
+10000361,working parttime,34,pacific,$25000 or more,1,2 - 3 times a month,Pretty Happy
+10000362,school,46,foreign,$1000 to 2999,1,Once a week,Pretty Happy
+10000364,working fulltime,47,pacific,$25000 or more,1,Multiple times in a week,Pretty Happy
+10000366,working fulltime,35,foreign,$25000 or more,1,Multiple times in a week,Pretty Happy
+10000367,keeping house,51,w. nor. central,$25000 or more,1,Rarely,Pretty Happy
+10000369,working fulltime,72,foreign,$25000 or more,0,Never,Pretty Happy
+10000370,keeping house,69,foreign,$25000 or more,1,Once a month,Pretty Happy
+10000372,working parttime,47,pacific,NA,0,Rarely,Pretty Happy
+10000374,working fulltime,75,pacific,$25000 or more,0,Once a week,Pretty Happy
+10000376,working fulltime,46,pacific,$25000 or more,1,Rarely,Pretty Happy
+10000378,working fulltime,44,pacific,$25000 or more,1,Rarely,Very Happy
+10000379,retired,33,pacific,$15000 - 19999,0,0,Not Happy
+10000380,working fulltime,40,pacific,$25000 or more,1,Never,Very Happy
+10000382,working fulltime,47,foreign,$25000 or more,1,Rarely,Pretty Happy
+10000383,keeping house,40,pacific,$25000 or more,1,Rarely,Very Happy
+10000384,working parttime,32,pacific,$10000 - 14999,0,Never,Pretty Happy
+10000385,working fulltime,30,pacific,NA,1,Rarely,Pretty Happy
+10000388,working fulltime,37,pacific,$10000 - 14999,0,0,Not Happy
+10000392,working fulltime,44,pacific,$25000 or more,1,Occassional,Not Happy
+10000393,temp not working,37,middle atlantic,$25000 or more,1,0,Not Happy
+10000394,working fulltime,50,pacific,$25000 or more,0,Occassional,Pretty Happy
+10000395,working fulltime,40,e. nor. central,$20000 - 24999,1,0,Not Happy
+10000397,"unempl, laid off",46,pacific,$25000 or more,1,Once a week,Pretty Happy
+10000398,working fulltime,30,pacific,$25000 or more,0,Rarely,Pretty Happy
+10000399,working fulltime,57,pacific,$25000 or more,1,Once a week,Very Happy
+10000401,working fulltime,31,w. sou. central,$25000 or more,1,0,Not Happy
+10000405,working parttime,36,pacific,$1000 to 2999,0,0,Not Happy
+10000406,retired,29,pacific,$15000 - 19999,0,Multiple times in a week,Not Happy
+10000411,working fulltime,36,foreign,$25000 or more,0,Rarely,Very Happy
+10000414,working parttime,42,pacific,$7000 to 7999,1,Occassional,Very Happy
+10000415,school,44,pacific,$10000 - 14999,1,Once a week,Very Happy
+10000418,"unempl, laid off",35,pacific,$10000 - 14999,0,Once a month,Very Happy
+10000419,retired,50,pacific,$25000 or more,0,Occassional,Pretty Happy
+10000421,working fulltime,47,pacific,$10000 - 14999,0,Rarely,Pretty Happy
+10000422,working parttime,29,pacific,$20000 - 24999,1,Never,Pretty Happy
+10000423,keeping house,NA,pacific,$25000 or more,1,Once a month,Pretty Happy
+10000425,working fulltime,22,pacific,$10000 - 14999,1,Once a week,Pretty Happy
+10000427,working fulltime,53,pacific,$25000 or more,0,Once a month,Very Happy
+10000428,retired,43,w. nor. central,$20000 - 24999,0,Once a month,Pretty Happy
+10000429,working parttime,86,foreign,$25000 or more,0,2 - 3 times a month,Pretty Happy
+10000432,working fulltime,35,foreign,$25000 or more,1,Once a week,Pretty Happy
+10000433,working fulltime,65,foreign,$25000 or more,0,2 - 3 times a month,Very Happy
+10000436,keeping house,20,w. sou. central,$25000 or more,1,Never,Pretty Happy
+10000437,retired,68,e. nor. central,$25000 or more,1,Once a month,Pretty Happy
+10000439,working fulltime,32,e. nor. central,NA,0,2 - 3 times a month,Pretty Happy
+10000440,working fulltime,42,w. nor. central,$25000 or more,0,Once a week,Very Happy
+10000441,working fulltime,32,e. nor. central,$20000 - 24999,1,Once a week,Pretty Happy
+10000442,retired,46,e. nor. central,$25000 or more,1,Rarely,Pretty Happy
+10000444,working fulltime,60,e. nor. central,$25000 or more,0,Rarely,Pretty Happy
+10000446,school,42,foreign,$25000 or more,1,Occassional,Very Happy
+10000448,working fulltime,53,e. nor. central,$25000 or more,0,Once a month,Pretty Happy
+10000452,working fulltime,60,e. nor. central,$25000 or more,0,2 - 3 times a month,Very Happy
+10000454,working fulltime,42,foreign,NA,0,Never,Very Happy
+10000455,working fulltime,30,e. nor. central,$25000 or more,0,Occassional,Pretty Happy
+10000457,"unempl, laid off",29,e. sou. central,NA,1,Once a month,Pretty Happy
+10000459,keeping house,33,foreign,NA,1,0,Not Happy
+10000460,school,49,mountain,$15000 - 19999,0,Multiple times in a week,Not Happy
+10000461,"unempl, laid off",29,e. nor. central,$20000 - 24999,1,Rarely,Pretty Happy
+10000465,keeping house,35,e. nor. central,$3000 to 3999,1,Rarely,Pretty Happy

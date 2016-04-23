@@ -1,0 +1,157 @@
+Title: Shell commands come in handy for a data scientist
+Author: Manish Barnwal
+email: manishbarnwal.iit@gmail.com
+
+
+I will use the file- 'data.txt' to illustrate the shell commands that I find useful and handy when workin on file that is stored in the UNIX environment. 
+'data.txt' is a file having 200 rows and 8 columns.
+
+cat data.txt // throws the the contents of the entire file at your terminal
+We don't want to bombard our terminal with the complete content of the file. Instead, if you want to have a complete look at the file, open the file in vim editor
+vi data.txt // will open the file in the editor
+
+
+head data.txt // gives you the top 10 rows of the text file at your terminal
+ID,WorkStatus,Score,Residence_Region,income,Gender,Alcohol_Consumption,Happy
+10000123,keeping house,46,middle atlantic,$10000 - 14999,1,Once a month,Pretty Happy
+10000125,working fulltime,29,foreign,$15000 - 19999,1,2 - 3 times a month,Pretty Happy
+10000126,working fulltime,42,foreign,$15000 - 19999,0,Multiple times in a week,Not Happy
+10000127,working parttime,36,middle atlantic,$10000 - 14999,1,Once a month,Not Happy
+10000130,working fulltime,44,foreign,$10000 - 14999,0,Rarely,Very Happy
+10000132,working fulltime,46,middle atlantic,$15000 - 19999,1,2 - 3 times a month,Pretty Happy
+10000134,working fulltime,75,middle atlantic,$25000 or more,1,Occassional,Pretty Happy
+10000135,working fulltime,51,foreign,$25000 or more,0,Occassional,Very Happy
+10000137,working fulltime,73,south atlantic,$25000 or more,0,Once a week,Pretty Happy
+
+
+head -n 3 data.txt // gives you the top 3 rows of the text file at your terminal
+ID,WorkStatus,Score,Residence_Region,income,Gender,Alcohol_Consumption,Happy
+10000123,keeping house,46,middle atlantic,$10000 - 14999,1,Once a month,Pretty Happy
+10000125,working fulltime,29,foreign,$15000 - 19999,1,2 - 3 times a month,Pretty Happy
+10000126,working fulltime,42,foreign,$15000 - 19999,0,Multiple times in a week,Not Happy
+
+
+tail data.txt 
+tail -n 2 data.txt  // gives you the bottom 2 rows of the text file at your terminal
+
+
+cat data.txt | head 
+Gives you the top 10 rows of the file.
+
+Notice, the '|' operator. This is called pipe operator. There is a concept of piping wherein you can perform a sequence of operations in a single command. 
+
+So what exactly is piping?
+A pipe is a facility of the shell that makes it easy to chain together multiple commands. When used between two Unix commands, it means that output from the first command should become the input to the second command. Just read the "|" in the command as "pass the data on to". 
+More on this operator later in the post.
+
+
+wc //wc is a fairly useful shell command that lets you count the number of lines(-l), words(-w) or characters(-c) in a given file
+
+wc -l data.txt // gives you the number of lines in the file
+200 data.txt
+
+wc -w data.txt // gives you the number of words in the file
+1366 data.txt
+
+wc -c data.txt // gives you the number of characters in the file
+15689 data.txt
+
+
+grep
+Consider 'grep' as a command to filter on the results you get.
+You may want to print all the lines in your file which have a particular phrase. Say for example you want to see people who are 'Very Happy'. You simply pass this to grep command.
+
+grep "Very Happy" data.txt | head -5
+ID,WorkStatus,Score,Residence_Region,income,Gender,Alcohol_Consumption,Happy
+10000130,working fulltime,44,foreign,$10000 - 14999,0,Rarely,Very Happy
+10000135,working fulltime,51,foreign,$25000 or more,0,Occassional,Very Happy
+10000140,keeping house,59,e. nor. central,$25000 or more,1,Rarely,Very Happy
+10000163,keeping house,59,middle atlantic,$25000 or more,1,Once a week,Very Happy
+10000178,working fulltime,31,middle atlantic,$25000 or more,0,Never,Very Happy
+
+
+Let us say, we want to count the number of users who are 'Not Happy'
+grep 'Not Happy' data.txt | wc -l
+37
+
+
+sort
+If you want to sort the data based on some column, say 'Score'; 'Score' is the 3rd column in the file- data.txt
+
+sort -t ',' -k 3 -n -r data.txt |head -5
+ID,WorkStatus,Score,Residence_Region,income,Gender,Alcohol_Consumption,Happy
+10000429,working parttime,86,foreign,$25000 or more,0,2 - 3 times a month,Pretty Happy
+10000286,working fulltime,86,foreign,$25000 or more,0,Never,Pretty Happy
+10000374,working fulltime,75,pacific,$25000 or more,0,Once a week,Pretty Happy
+10000303,working fulltime,75,middle atlantic,NA,0,Once a month,Pretty Happy
+10000261,working fulltime,75,middle atlantic,$25000 or more,0,Occassional,Very Happy
+
+Explanation: -t is used to specify the delimeter; ',' in this case. If the delimiter is '\t', we don't need to specify -t argument. Space is take as delimiter by default
+             -k is used to specify the column based on which you want to sort the data; 3 in this case
+             -n is to specify that sorting is to be done numerically
+             -r is to imply that the sorting is descending
+
+
+cut 
+This command gives you only specific column. Say you want to see only the 4th column of the file
+cut data.txt -d ',' -f 4 |head
+Residence_Region
+middle atlantic
+foreign
+foreign
+middle atlantic
+foreign
+middle atlantic
+middle atlantic
+foreign
+south atlantic
+
+Explanation: ',' is the delimiter. 4 is the column number that you want to see.
+
+
+uniq
+Do not confuse this command for 'unique'. It is slightly different. This removes sequential duplicates.
+So if you want to get unique values from a column, you need to first sort the data and then use this 'uniq' command in sequence.
+
+To get the unique of a column, say the 2nd column
+cat data.txt | cut -d ',' -f 2 | sort | uniq
+keeping house
+other
+retired
+school
+temp not working
+"unempl
+working fulltime
+working parttime
+WorkStatus
+
+
+This command could be used with argument -c to count the occurrence of these distinct values. Something like to count distinct in SQL.
+cut data.txt -d ',' -f 8 | sort | uniq -c
+1 Happy
+43 Not Happy
+109 Pretty Happy
+48 Very Happy
+
+
+
+tr // translate
+'Find and Replace' function that we have in excel. Yes we have that in UNIX as well. 
+A typical use of this command that I use on regular basis is that I get the file from HIVE which are tab delimited. And say I want to convert it to ',' delimited.
+
+You may also want to replace certain characters in file with something else using the tr command.
+
+Change delimiter from '\t' to ','
+cat data.txt | tr ',' '\t' | head -4   // changed '|' by ','
+
+
+Save to a new file or append to an existing file
+'>' and '>>' operator
+Say you want to save the output of opeations to some file. You use '>' or '>>' depending on whether you want it to be a new file or you want to append it to an existing file.
+
+cat data.txt|tr ',' '\t' |head > tabData.txt  // will create a new file tabData.txt which will tab delimited having 10 rows
+
+cat data.txt|tr ',' '\t' |tail >> tabData.txt  // will add bottom 10 rows to the existing file
+
+
+I will update this list as and when I see a command deserve to be in a data scientist's toolbox.

@@ -7,7 +7,9 @@ I will use the file- 'data.txt' to illustrate the shell commands that I find use
 'data.txt' is a file having 200 rows and 8 columns.
 
 cat data.txt // throws the the contents of the entire file at your terminal
-We don't want to bombard our terminal with the complete content of the file. Instead, if you want to have a complete look at the file, open the file in vim editor
+We don't want to bombard our terminal with the complete content of the file. 
+Instead, if you want to have a complete look at the file, open the file in vim editor
+
 vi data.txt // will open the file in the editor
 
 
@@ -38,7 +40,8 @@ tail -n 2 data.txt  // gives you the bottom 2 rows of the text file at your term
 cat data.txt | head 
 Gives you the top 10 rows of the file.
 
-Notice, the '|' operator. This is called pipe operator. There is a concept of piping wherein you can perform a sequence of operations in a single command. 
+Notice, the '|' operator. This is called pipe operator. There is a concept of piping wherein you can 
+perform a sequence of operations in a single command. 
 
 So what exactly is piping?
 A pipe is a facility of the shell that makes it easy to chain together multiple commands. When used between two Unix commands, it means that output from the first command should become the input to the second command. Just read the "|" in the command as "pass the data on to". 
@@ -59,7 +62,9 @@ wc -c data.txt // gives you the number of characters in the file
 
 grep
 Consider 'grep' as a command to filter on the results you get.
-You may want to print all the lines in your file which have a particular phrase. Say for example you want to see people who are 'Very Happy'. You simply pass this to grep command.
+You may want to print all the lines in your file which have a particular phrase. 
+Say for example you want to see people who are 'Very Happy'. You simply pass this to grep command.
+
 
 grep "Very Happy" data.txt | head -5
 ID,WorkStatus,Score,Residence_Region,income,Gender,Alcohol_Consumption,Happy
